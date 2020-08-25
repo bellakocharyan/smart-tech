@@ -1,5 +1,4 @@
-
-//@@include(`_swiper-bundle.min.js`);
+//webp support
 
 function testWebP(callback) {
 
