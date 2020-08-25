@@ -15,7 +15,7 @@ testWebP(function (support) {
     } else {
         document.querySelector('body').classList.add('no-webp');
     }
-});;
+});
 
 //header
 const iconMenu = document.querySelector('.menu__icon');
