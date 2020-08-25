@@ -1,7 +1,3 @@
-navigator.serviceWorker.register(`./sw.js`);
-if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/{smart-tech}/sw.min.js', { scope: '/{smart-tech}/' })
-}
 
 //webp support
 
