@@ -1,4 +1,6 @@
 
+//@@include(`_swiper-bundle.min.js`);
+
 function testWebP(callback) {
 
     var webP = new Image();
