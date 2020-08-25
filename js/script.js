@@ -1,4 +1,5 @@
 
+
 //webp support
 
 function testWebP(callback) {

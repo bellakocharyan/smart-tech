@@ -1120,8 +1120,20 @@ body {
   -webkit-transition: 0.3s ease-out;
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation: fadeIn 3s infinite;
+          animation: fadeIn 3s infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
 
 .about {
