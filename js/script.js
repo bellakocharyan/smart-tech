@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('/sw.min.js');
+//navigator.serviceWorker.register('./sw.min.js');
 if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/{smart-tech}/sw.min.js', { scope: '/{smart-tech}/' })
 }
